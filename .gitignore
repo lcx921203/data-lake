@@ -1,0 +1,6 @@
+charts/airflow/helm-chart/*
+charts/spark/helm-chart/*
+charts/zeppelin/helm-chart/*
+*.log
+*.bak
+

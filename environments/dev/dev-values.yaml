@@ -1,0 +1,10 @@
+
+# Airflow 配置
+airflow:
+  executor: KubernetesExecutor
+  dags:
+    gitSync:
+      enabled: true
+      repo: git@github.com:your-org/dags.git
+      branch: main
+
